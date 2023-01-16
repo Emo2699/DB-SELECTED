@@ -1,0 +1,95 @@
+/* Barra de navegacion*/
+.navbar{
+    background-color: rgba(16, 162, 145, 0.775);
+    color: white;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-link{
+    font-size: medium;
+    color: white;
+}
+
+.caja1{
+    /* color: green; */
+    /* background-color: red; */
+    min-height: 100px;
+    text-align: center;
+}
+.caja1 h1{
+    font-family: 'Lobster', cursive;
+}
+.caja1 h2{
+    font-size: 1.5rem;
+    font-family: 'Lobster', cursive;
+}
+
+/* Seccion Principal*/
+.fila{
+    height: 400px;
+}
+
+.columna2{
+    background-color: rgba(27, 193, 174, 0.197);
+}
+
+
+/* Carrusel */
+.carousel-item{
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Tarjeta */
+.tarjeta1{
+    margin-top: 2.5rem;
+    height: 300px;
+    text-justify: newspaper;
+    
+}
+.tarjeta1 .card-body{
+    /* background-color: aqua; */
+}
+
+.carrusel2{
+    margin: 50px;
+}
+
+
+/* Pie de pagina */
+footer{
+    min-height: 180px;
+}
+.pie{
+    background-color: rgba(186, 197, 196, 0.644);
+
+}
+.iconos-redes a{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2 ease-in;
+}
+
+/*Estilos de login*/
+.container.login{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 50px;
+}
+.container i{
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+}
