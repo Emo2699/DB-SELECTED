@@ -148,13 +148,26 @@ footer{
     border-radius: 20px;
     background-color:rgba(255, 255, 255, 0.644);
 }
+.container-mg.reservar h2{
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+}
 .container-mg.reservar select{
     margin-bottom: 10px;
 }
+<<<<<<< HEAD
 /* Estilos de Admin*/
 .container-fluid.seccion-admin{
     padding: 50px;
     background-image: url(../img/admin-principal.jpg);
+=======
+
+/*Estilo de Mi Cuenta*/
+.col-6.img{
+    padding: 50px;
+    background-image: url(../img/familia.jpg);
+>>>>>>> 55ec5302756a5b1329948e6c57973ab726ae594d
     background-position: center;
     background-size: cover;
     display: flex;
@@ -162,6 +175,7 @@ footer{
     align-items: center;
     align-content: center;
 }
+<<<<<<< HEAD
 
 .card.admin img{
     width: 60%;
@@ -181,3 +195,8 @@ footer{
     background-color: #12b4ff;
     border: none;
 }
+=======
+.col-6.info{
+    padding: 15px;
+}
+>>>>>>> 55ec5302756a5b1329948e6c57973ab726ae594d

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <!-- Meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Titulo -->
-    <title>Hotel California - Reservar</title>
+    <title>Hotel California - Mi Cuenta</title>
     
     <!-- Bootstrap 5.3.0-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -41,11 +41,6 @@
                         <a class="nav-link" href="#">Sobre Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="miCuenta.html">
-                            <i class="bi bi-person-fill"></i>Mi Cuenta
-                        </a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="index.html">
                             <i class="bi bi-box-arrow-right"></i>Cerrar Sesion
                         </a>
@@ -55,41 +50,58 @@
         </div>
     </nav>
     <!-- Fin de la barra de navegacion -->
-    <!-- Seccion principal -->
-    <div class="container-fluid reservar">
-        <div class="container-mg reservar">
-            <h2>Realiza tu reservacion</h2>
-            <form class="row" action="">
-                <div class="col-6">
-                    <label for="fechaLlegada" class="form-label">Fecha Llegada</label>
-                    <input type="date" class="form-control" id="fechaLlegada" requiered>
-                </div>
-                <div class="col-6">
-                    <label for="fechaSalida" class="form-label">Fecha Salida</label>
-                    <input type="date"class="form-control" id="fechaSalida" requiered>
-                </div>
-                <div class="col-12">
-                    <label for="inputState" class="form-label">Habitacion</label>
-                    <select id="inputState" class="form-select">
-                      <option>Individual</option>
-                      <option>Para dos personas</option>
-                      <option>Para cuatro personas</option>
-                    </select>
-                </div>
-                <div class="col-6">
-                    <label for="inputState" class="form-label">Pago</label>
-                    <select id="inputState" class="form-select">
-                      <option>Deposito</option>
-                      <option>Tarjeta</option>
-                      <option>Lavar trastes</option>
-                    </select>
-                </div>
-                <div class="col-md-4 offset-md-5">
-                    <button type="submit" class="btn btn-success">Finalizar</button>
-                </div>
-            </form>
-        </div>    
+    <div class="container-fluid miCuenta">
+        <div class="row">
+            <div class="col-6 img">
+            </div>
+            <div class="col-6 info">
+                <form class="row datos">
+                    <div class="col-6">
+                        <label for="Paterno" class="form-label">Apellido Paterno</label>
+                        <input type="text" class="form-control" id="Paterno" disabled>
+                    </div>
+                    <div class="col-6">
+                        <label for="Materno" class="form-label">Apellido Materno</label>
+                        <input type="text" class="form-control" id="Materno" disabled>
+                    </div>
+                    <div class="col-6">
+                        <label for="Nombre(s)" class="form-label">Nombre(s)</label>
+                        <input type="text" class="form-control" id="Nombre(s)" disabled>
+                    </div>
+                    <div class="col-6">
+                        <label for="Usuario" class="form-label">Usuario</label>
+                        <input type="text" class="form-control" id="Usuario" disabled>
+                        <div id="ayudaUsuario" class="form-text">
+                          Puede incluir numeros
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="correo" class="form-label">Correo Electronico</label>
+                        <input type="email" class="form-control" id="correo" disabled>
+                    </div>
+                    <div class="col-12">
+                        <label for="clave" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="clave" disabled minlength="5">
+                    </div>
+                    <div class="col-4">
+                        <label for="telefono" class="form-label">Teléfono</label>
+                        <input type="number" class="form-control" id="telefono" disabled minlength="10" maxlength="10">
+                        <br>
+                    </div>
+                    <div class="col-8"></div>
+                    <div class="col-lg-2">
+                        <!-- Este boton lleva el evento de cambiar los input a enable para realizar cambios -->
+                        <button class="btn btn-success">Modificar</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <button type="submit" class="btn btn-success" disabled>Guardar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
+
+
     <!-- Pie de pagina -->
     <footer class="pie d-flex flex-column align-items-center justify-content-center">
         <img class="footer-icono" src="./img/playa-favicon.png" alt="Logo" width="100">
@@ -111,7 +123,6 @@
             </a>
         </div>
     </footer>
-
     <!-- Bootstrap de js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
