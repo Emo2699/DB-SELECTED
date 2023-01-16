@@ -50,10 +50,6 @@
     text-justify: newspaper;
     
 }
-.tarjeta1 .card-body{
-    /* background-color: aqua; */
-}
-
 .carrusel2{
     margin: 50px;
 }
@@ -92,4 +88,43 @@ footer{
     font-size: 150px;
     display: flex;
     align-items: center;
+}
+
+/*Estilos de la pagina de habitacions*/
+.seccion-habitacion{
+    font-style: italic;
+    padding: 40px;
+}
+.seccion-habitacion h2{
+    font-family: 'Lobster', cursive;
+}
+
+/* Estilos de la pagina del cliente */
+.container-fluid.seccion-cliente{
+    padding: 50px;
+    background-image: url(../img/cliente-principal.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.container-fluid.seccion-cliente h1{
+    color: white;
+    font-size: 100px;
+    font-family: 'Lobster', cursive;
+}
+
+.card.cliente{
+    width: 20rem;
+}
+.card.cliente i{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-size: 50px;
+    align-content: center;
 }

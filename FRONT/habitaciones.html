@@ -17,6 +17,10 @@
 
     <!-- Iconos de Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Barra de navegacion -->
@@ -54,9 +58,15 @@
         </div>
       </nav>
     <!-- Fin de la barra de navegacion -->
+
+    <section class="seccion-habitacion">
+        <h2>Ven y relájate con nosotros</h2>
+        <p>
+            Dentro del Hotel California encontraras la habitacion que se adecue a tus necesidades, dentro de nuestra oferta te mostramos los diferentes tipos de habitaciones que puedes elegir
+        </p>
+    </section>
     
     <!-- Carrusel 1 para habitaciones individuales -->
-      <!-- Carrusel 1 -->
     <div class="container carrusel1">
         <div class="row fila">
             <div class="col columna1">
@@ -73,12 +83,10 @@
                                 </div>
                                 <div class="carousel-inner">
                                     <!-- Primer elemento de carrusel -->
-                                    <div class="carousel-item active" style="background-image: url(./img/carrusel1.jpg);">
-                                        <!-- <img src="./img/carrusel1.jpg" class="d-block w-100" alt="..."> -->
+                                    <div class="carousel-item active" style="background-image: url(./img/individual.jpg);">
                                     </div>
                                     <!-- Segundo elemento del carrusel -->
-                                    <div class="carousel-item active" style="background-image: url(./img/carrussel2.jpg);">
-                                        <!-- <img src="./img/carrussel2.jpg" class="d-block w-100" alt="..."> -->
+                                    <div class="carousel-item active" style="background-image: url(./img/individual2.jpg);">
                                     </div>
                                 </div>
                             </div>
@@ -89,8 +97,99 @@
             <div class="col columna2">
                 <div class="tarjeta1">
                     <div class="card-body">
-                        <h5 class="card-title" style="font-family: 'Lobster', cursive; font-size:30px">Diversion garantizada!!!!</h5>
+                        <h5 class="card-title" style="font-family: 'Lobster', cursive; font-size:30px">Habitaciones Individuales geniales!!!</h5>
                         <p class="card-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, quidem est. Iusto aliquid pariatur eaque veritatis, praesentium fugiat hic eveniet sapiente obcaecati quam et ea, modi id labore nulla rem.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, quidem est. Iusto aliquid pariatur eaque veritatis, praesentium fugiat hic eveniet sapiente obcaecati quam et ea, modi id labore nulla rem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carrrusel 2 para habitaciones de dos personas -->
+    <div class="container carrusel2">
+        <div class="row fila">
+            <div class="col columna2">
+                <div class="tarjeta1">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-family: 'Lobster', cursive; font-size:30px">Habitaciones para 2...</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, quidem est. Iusto aliquid pariatur eaque veritatis, praesentium fugiat hic eveniet sapiente obcaecati quam et ea, modi id labore nulla rem.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, quidem est. Iusto aliquid pariatur eaque veritatis, praesentium fugiat hic eveniet sapiente obcaecati quam et ea, modi id labore nulla rem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col columna1">
+                <div class="container carrusel">
+                    <!-- tarjeta o carta -->
+                    <div class="tarjeta">
+                        <div class="card-body">
+                            <!-- Inicio de carrusel -->
+                            <div id="miCarrusel2" class="carousel slide" data-bs-ride="carousel">
+                                <!-- Indicadores del carrusel -->
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#miCarrusel2" data-bs-slide-to="0" class="active"></button>
+                                    <button type="button" data-bs-target="#miCarrusel2" data-bs-slide-to="1"></button>
+                                    <button type="button" data-bs-target="#miCarrusel2" data-bs-slide-to="2"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <!-- Primer elemento de carrusel -->
+                                    <div class="carousel-item active" style="background-image: url(./img/habitacion1.jpg);">
+                                        <!-- <img src="./img/carrusel1.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <!-- Segundo elemento del carrusel -->
+                                    <div class="carousel-item active" style="background-image: url(./img/habitacion2.jpg);">
+                                        <!-- <img src="./img/carrussel2.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <!-- Segundo elemento del carrusel -->
+                                    <div class="carousel-item active" style="background-image: url(./img/habitacion3.jpg);">
+                                        <!-- <img src="./img/carrussel2.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carrusel 3 para habitaciones para 4 personas-->
+    <div class="container carrusel1">
+        <div class="row fila">
+            <div class="col columna1">
+                <div class="container carrusel">
+                    <!-- tarjeta o carta -->
+                    <div class="tarjeta">
+                        <div class="card-body">
+                            <!-- Inicio de carrusel -->
+                            <div id="miCarrusel3" class="carousel slide" data-bs-ride="carousel">
+                                <!-- Indicadores del carrusel -->
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#miCarrusel3" data-bs-slide-to="0" class="active"></button>
+                                    <button type="button" data-bs-target="#miCarrusel3" data-bs-slide-to="1"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <!-- Primer elemento de carrusel -->
+                                    <div class="carousel-item active" style="background-image: url(./img/habitacion-grande.jpg);">
+                                    </div>
+                                    <!-- Segundo elemento del carrusel -->
+                                    <div class="carousel-item active" style="background-image: url(./img/habitacion-grande2.jpg);">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col columna2">
+                <div class="tarjeta1">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-family: 'Lobster', cursive; font-size:30px">Entre más mejor!!!</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, quidem est. Iusto aliquid pariatur eaque veritatis, praesentium fugiat hic eveniet sapiente obcaecati quam et ea, modi id labore nulla rem.
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, quidem est. Iusto aliquid pariatur eaque veritatis, praesentium fugiat hic eveniet sapiente obcaecati quam et ea, modi id labore nulla rem.
                         </p>
                     </div>
@@ -99,14 +198,7 @@
         </div>
     </div>
 
-
-
-
-    <!-- Carrrusel 2 para habitaciones de dos personas -->
-
-
-    <!-- Carrusel 3 para habitaciones para 4 personas-->
-
+    <br><br>
     <!-- Pie de página -->
     <footer class="pie d-flex flex-column align-items-center justify-content-center">
         <img class="footer-icono" src="./img/playa-favicon.png" alt="Logo" width="100">
@@ -129,9 +221,6 @@
             </a>
         </div>
     </footer>
-
-
-
 
     <!-- Bootstrap de js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
