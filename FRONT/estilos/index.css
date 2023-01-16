@@ -77,7 +77,6 @@ footer{
 
 /*Estilos de login*/
 .container.login{
-    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,7 +89,7 @@ footer{
     align-items: center;
 }
 
-/*Estilos de la pagina de habitacions*/
+/*Estilos de la pagina de habitaciones*/
 .seccion-habitacion{
     font-style: italic;
     padding: 40px;
@@ -126,5 +125,29 @@ footer{
     align-content: center;
     align-items: center;
     font-size: 50px;
+}
+
+/* Estilos de la pagina para reservar */
+.container-fluid.reservar{
+    padding: 50px;
+    background-image: url(../img/reservacion.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     align-content: center;
+}
+.container-mg.reservar{
+    padding: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 50px;
+    border-radius: 20px;
+    background-color:rgba(255, 255, 255, 0.644);
+}
+.container-mg.reservar select{
+    margin-bottom: 10px;
 }
