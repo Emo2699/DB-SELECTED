@@ -151,3 +151,33 @@ footer{
 .container-mg.reservar select{
     margin-bottom: 10px;
 }
+/* Estilos de Admin*/
+.container-fluid.seccion-admin{
+    padding: 50px;
+    background-image: url(../img/admin-principal.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.card.admin img{
+    width: 60%;
+    height:60%;
+    display: block;
+    margin: 1em auto;
+}
+.card.admin{
+    background-color: rgba(1,1,1,0.8);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 1rem;
+}
+.card.admin a{
+    background-color: #12b4ff;
+    border: none;
+}
